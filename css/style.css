@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #555;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    height: 60px;
+}
+
+section {
+    padding-top: 109px;
+}
+
+.app-button:hover {
+    background-color: rgba(100, 100, 100, 0.2);
+    cursor: pointer;
+      
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+li {
+    text-align: center;
+    padding: 14px 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.search {
+    height:60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    position: relative;
+    margin-top: 30px;
+}
+
+input {
+    width: 580px;
+    height: 48px;
+    padding-left: 40px;
+    font-size: 1.2rem;
+    border-radius: 24px;
+    border: 1px solid #d3d3d3;
+    
+}
+input:hover {
+    box-shadow: 0 1px 3px 1px rgba(201, 201, 201, 0.5);
+}
+input:focus {
+    outline: none;
+}
+
+.search_icon {
+    position:absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.mic_icon {
+    position: absolute;
+    top: 12px;
+    left: 540px;
+
+}
+
+button {
+    height: 36px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    padding: 0 16px;
+    font-family: Arial,sans-serif;
+}
+
+.buttons {
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+button:hover {
+    border: 1px solid #eee;
+    box-shadow: 0 0 2px 1px rgba(189, 189, 189, 0.5);
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0px;
+    border-top: 1px solid #e4e4e4;
+    padding-left: 27px;
+    padding-right: 27px;  
+}
+
+.footers li a {
+    color: #5f6368;
+    font-family: Arial,  sans-serif;
+    font-size: 14px;
+}
